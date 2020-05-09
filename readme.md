@@ -9,4 +9,13 @@
 
 ## Laravel recaptcha
 
+## Installation
+
+composer require anhskohbo/no-captcha
+
+## Usages
+
+{!! NoCaptcha::renderJs() !!}
+{!! NoCaptcha::display() !!}
+
 <img src="https://github.com/Parasnshah/laravel-google-recaptcha/blob/master/public/captcha.PNG">
